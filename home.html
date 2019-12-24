@@ -4,13 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:600&display=swap" rel="stylesheet">
+
+    <style>
+    
+    .judul {
+        font-family: 'Lobster', cursive;
+        color: magenta;
+        font-size: 40px;
+        margin-left: 25%;
+    }
+
+    .form-now {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    form {
+        color: white;
+        margin-right: 10%; 
+        margin-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+       
+        font-family: 'Exo 2', sans-serif;
+    }
+
+    .header {
+        font-family: 'Exo 2', sans-serif;       
+    }
+
+    </style>
+    
     <title>Document</title>
 </head>
 <body>
-   <div class="container-fluid">
-       <div>
-           
-       </div>
-   </div>
+
+    <div class="container-fluid">
+
+            <!-- Header-->
+            <div class="row" style="margin-top: 100px;">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: black;">
+                        <a class="navbar-brand" href="#">
+                            <span class="judul">Introspect</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText" style="margin-left: 60%;">
+                          <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item active" style="margin-right: 15%;">
+                              <a class="nav-link" href="#"><span class="header">HOME</span></a>
+                            </li>
+                            <li class="nav-item" style="margin-right: 15%;">
+                              <a class="nav-link" href="#"><span class="header">GENERIC</span></a>
+                            </li>
+                            <li class="nav-item" style="margin-right: 15%;">
+                              <a class="nav-link" href="#"><span class="header">ELEMENTS</span></a>
+                            </li>
+                          </ul>
+                          
+                        </div>
+                      </nav>
+                </div>
+            </div>
+
+            <!-- 
+            
+                Bagian Isi sesuai tugas masing - masing page
+            
+            -->
+
+            <!-- Footer-->
+            <div class="row" style="background-color: crimson;">
+                <div class="col">
+                    <form >
+                        <div class="form-row" >
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">NAMA</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">EMAIL</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                        </div>
+                        <div class="form-group"><label for="inputMassage">MASSAGE</label>
+                          <textarea class="form-control" id="inputMassage" placeholder="Your Massage"></textarea>
+                        </div>                          
+                        <button type="submit" class="btn btn-outline-light">KIRIM</button>
+                      </form>
+                </div>
+            </div>
+
+    </div>
+
 </body>
 </html>
