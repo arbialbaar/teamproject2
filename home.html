@@ -41,9 +41,19 @@
     .header {
         font-family: 'Exo 2', sans-serif;       
     }
-    
-    .generic {
-        margin: 4%;
+    .img {
+       
+        max-width:100%;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+        color: black;
+        font-family: 'Exo 2', sans-serif;  
+        color:cornsilk;
+    }
+    .isiImg {
+        margin: 13% 0% 0% 7%;
+        font-family: 'Roboto', sans-serif;
     }
     </style>
     
@@ -52,7 +62,8 @@
 <body>
 
     <div class="container-fluid">
-        <div class="header">
+
+            <!-- Header-->
             <div class="row">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: black;">
@@ -79,45 +90,22 @@
                       </nav>
                 </div>
             </div>
-        </div>
-      
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <div class="generic">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 style="color: crimson;">GENERIC</h1>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+            <div class="row align-items-center" style="background-image: url(img/header.png); margin-top: 80px;">
+                <div class="col">
+                    <div class="img">
+                        <div class="isiImg">
+                            <h3><strong>COMPANY</strong><space> </space>PROFILE</h3>
+                            <h3 style="margin-top: 1%;">PERUSAHAAN MACHINE LEARNING</h3>
+                            <button type="submit" class="btn btn-outline-light"  style="margin-top:5%">GET STARTED</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-sm-12">
-                    <img src="img/generic.jpg" alt="" width="100%">
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>
-                        Fusce vitae facilisis nibh. Morbi viverra venenatis dui, eget aliquet urna. Maecenas in varius arcu, sit amet consequat dolor. Suspendisse blandit, sapien vel posuere posuere, nisi dui elementum magna, sit amet facilisis massa ligula id mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sollicitudin urna, ac blandit purus. Pellentesque eleifend lacus eu velit dapibus consequat. Duis leo massa, efficitur nec quam non, interdum auctor mi. Ut at iaculis nisi, nec sodales odio. Vivamus erat tortor, consectetur et ultricies quis, varius hendrerit risus. Mauris ex erat, lacinia et sem at, consectetur tristique arcu. Cras a quam at dui interdum faucibus id nec lectus. Quisque ut sollicitudin lacus. Curabitur ultricies varius turpis ut vehicula. Suspendisse iaculis dapibus felis ac congue. Integer varius, purus sed lobortis tempor, nunc lorem ullamcorper metus, vel interdum nibh sem in massa.
+            
+            
 
-                         Vivamus tempor aliquam vulputate. Fusce commodo vitae velit nec varius. Suspendisse porta orci at erat faucibus eleifend. Sed tempor et felis in laoreet. Vestibulum ac auctor ligula. Vestibulum ornare luctus quam, non cursus mauris aliquam ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent viverra hendrerit ex eget bibendum. Vestibulum in tortor tempor, finibus libero ac, posuere tellus. Quisque facilisis urna in tincidunt efficitur. Aenean viverra gravida augue, id euismod ante porta nec. Donec sodales malesuada pulvinar.
-                    </p>
-                    <br>
-                    <p>
-                        Donec ut lectus tincidunt, vehicula velit et, egestas libero. Donec gravida risus nec felis consectetur, eget porta augue suscipit. In vitae cursus elit. Etiam vulputate sapien in iaculis pretium. Nam semper malesuada dictum. Nullam laoreet lectus ac faucibus mollis. Phasellus velit ligula, pretium quis molestie sed, sollicitudin quis augue. Cras euismod fermentum blandit. Proin ligula dolor, ullamcorper commodo quam sit amet, dapibus pellentesque nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vel ipsum iaculis, dignissim neque sed, interdum orci. Maecenas commodo a nibh eu convallis. Quisque sed purus feugiat, feugiat orci ultricies, tincidunt velit.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
+            <!-- Footer-->
             <div class="row" style="background-color: crimson;">
                 <div class="col">
                     <form >
@@ -138,10 +126,8 @@
                     </form>
                 </div>
             </div>
-        </div>
-    
     </div>
-</div>
+</div>>
 
 </body>
 </html>
