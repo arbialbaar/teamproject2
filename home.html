@@ -25,22 +25,30 @@
         font-size: 40px;
         margin-left: 25%;
     }
+
+
+
     .form-now {
         margin-right: 20%;
         margin-left: 20%;
     }
+
+
     form {
         color: white;
-        margin-right: 10%; 
-        margin-left: 10%;
+
+
         padding-top: 2%;
         padding-bottom: 2%;
        
         font-family: 'Exo 2', sans-serif;
     }
+
+
     .header {
         font-family: 'Exo 2', sans-serif;       
     }
+
     .img {
        
         max-width:100%;
@@ -51,10 +59,60 @@
         font-family: 'Exo 2', sans-serif;  
         color:cornsilk;
     }
+
+
     .isiImg {
-        margin: 13% 0% 0% 7%;
+        margin: 20% 0% 0% 7%;
         font-family: 'Roboto', sans-serif;
+        height: 200px;
     }
+
+    .isi {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
+    }
+
+    .isi1 {
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+
+    .isi2 {
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 031 css*/
+        .jssorb031 {position:absolute;}
+        .jssorb031 .i {position:absolute;cursor:pointer;}
+        .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+        .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+        .jssorb031 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+
     </style>
     
     <title>Document</title>
@@ -67,7 +125,8 @@
             <div class="row">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: black;">
-                        <a class="navbar-brand" href="home.html">
+
+                        <a class="navbar-brand" href="#">
                             <span class="judul">Introspect</span>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,50 +143,211 @@
                             <li class="nav-item" style="margin-right: 15%;">
                               <a class="nav-link" href="#"><span class="header">ELEMENTS</span></a>
                             </li>
-                          </ul>
-                          
+                          </ul>                          
                         </div>
-                      </nav>
+                    </nav>
                 </div>
             </div>
-            
+
+            <!-- Image-->      
             <div class="row align-items-center" style="background-image: url(img/header.png); margin-top: 80px;">
                 <div class="col">
-                    <div class="img">
                         <div class="isiImg">
-                            <h3><strong>COMPANY</strong><space> </space>PROFILE</h3>
-                            <h3 style="margin-top: 1%;">PERUSAHAAN MACHINE LEARNING</h3>
-                            <button type="submit" class="btn btn-outline-light"  style="margin-top:5%">GET STARTED</button>
+                            <div id="jssor_1">
+                                <div data-u="slides" style="cursor:default;position:relative;top:100px;left:0px;width:900px;height:500px;overflow:hidden;">
+                                    <div>                                        
+                                        <div data-ts="flat" data-p="500" style="position:absolute; left:200px;top:70px;width:1000px;height:290px;overflow:hidden;">
+                                            <div data-to="a" data-ts="preserve-3d" data-t="0" style=" position:absolute; left:1000px;top:0px;width:1000px;height:290px;position:absolute;overflow:hidden;">
+                                                <div data-to="a" data-ts="preserve-3d" data-arr="1" style="position:absolute;color:#edf1f2;font-size:40px;"><strong>COMPANY</strong><space> </space>PROFILE</div>
+                                                <div data-to="a" data-ts="preserve-3d" data-arr="2" style="position:absolute;color:#edf1f2;font-size:40px; margin-top: 6%;"><span style="font-weight:900;color:#e04338;">PERUSAHAAN</span> LEARNING MACHINE</div>
+                                                <div data-to="a" data-ts="preserve-3d" data-arr="7" style="position:absolute;color:#edf1f2;font-size:40px; margin-top: 6%;"><button type="submit" class="btn btn-outline-light"  style="margin-top:100px; padding: 15px;">GET STARTED</button></div>
+                                            </div>                                                
+                                        </div>
+                                    </div>
+                                </div>                                    
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Deskripsi-->
+            <div class="container" style="margin-bottom: 5%;">
+                <div class="row">
+                    <div class="col">   
+                        <div class="isi">
+                            <h3 class="text text-danger" style="margin-bottom: 3%;"><Strong>SPECIAL TITLE TREATMENT</Strong></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laudantium itaque dolores accusantium optio voluptates vel voluptatem! Repellendus natus rerum voluptatum. Nemo facilis quos laudantium neque, architecto consequatur excepturi maxime.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium qui consequatur natus commodi ipsa quis neque atque, dolorum obcaecati aut ex laudantium cum maxime necessitatibus sequi facilis sapiente dolores animi!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, et aspernatur omnis excepturi quam deserunt, optio corrupti vel, dicta eveniet eaque. Illo nemo quos ullam totam minus sequi impedit voluptatum?</p>
+                            <a href="#" class="btn btn-outline-danger" style="margin-top: 5%;">Go somewhere</a>   
+                        </div>          
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="margin-bottom: 5%;">
+                <div class="row">
+                    <div class="col" style="background-color: aliceblue;">
+                        <div class="isi1" style="margin-left: 15%;">                    
+                            <h3 class="text text-danger"><strong>JUDUL 1</strong></h3>       
+                            <img src="img/christin-hume-Hcfwew744z4-unsplash.jpg" width="100%" height="314.75px" style="margin-top: 5%; margin-bottom: 5%;">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, impedit? Molestiae dicta quis sequi architecto? Libero iste quasi maxime labore ullam magni architecto, ratione dolores aut rerum doloremque sit dignissimos.</p>
+                        </div>                                                
+                    </div>
+                    <div class="col" style="background-color: #edf1f2;">
+                        <div class="isi1">
+                            <h3 class="text text-danger"><strong>JUDUL 2</strong></h3>
+                            <img src="img/william-iven-gcsNOsPEXfs-unsplash.jpg" width="100%" height="314.75px" style="margin-top: 5%; margin-bottom: 5%;">                                   
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, impedit? Molestiae dicta quis sequi architecto? Libero iste quasi maxime labore ullam magni architecto, ratione dolores aut rerum doloremque sit dignissimos.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row" style="margin-bottom: 5%;">
+                    <div class="col">
+                        <div class="isi2" >
+                            <img src="img/git.png" width="150px">
+                            <div style="text-align: left;">
+                                <h3 class="text text-danger"  style="margin-top: 10%"><strong>SPECIAL TITLE</strong></h3>
+                                <p>With supporting text below as a natural lead-in to additional content.</p>                                
+                                <a href="#" class="btn btn-outline-danger">Go somewhere</a>   
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div class="isi2">
+                            <img src="img/bootstrap.png" width="150px">
+                            <div style="text-align: left;">
+                                <h3 class="text text-danger" style="margin-top: 10%;"><strong>SKILL</strong> </h3>
+                                <p>With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-outline-danger">Go somewhere</a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="isi2">
+                            <img src="img/jquery.png" width="150px" >
+                            <div style="text-align:left">
+                            <h3 class="text text-danger"  style="margin-top: 10%"><strong>APPROAVED</strong></h3>
+                            <p>With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-outline-danger">Go somewhere</a>  
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="isi2">
+                            <img src="img/js.png" width="150px" >
+                            <div style="text-align:left">
+                            <h3 class="text text-danger"  style="margin-top: 10%"><strong>TESTER</strong></h3>
+                            <p>With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-outline-danger">Go somewhere</a>  
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>        
             
-            
-
             <!-- Footer-->
             <div class="row" style="background-color: crimson;">
                 <div class="col">
-                    <form >
-                        <div class="form-row" >
-                          <div class="form-group col-md-6">
-                            <label for="inputEmail4">NAMA</label>
-                            <input type="email" class="form-control" id="inputEmail4">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">EMAIL</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                          </div>
-                        </div>
-                        <div class="form-group"><label for="inputMassage">MASSAGE</label>
-                          <textarea class="form-control" id="inputMassage" placeholder="Your Massage"></textarea>
-                        </div>                          
-                        <button type="submit" class="btn btn-outline-light">KIRIM</button>
-                    </form>
+
+                    <div class="container">
+                        <form >
+                            <div class="form-row" >
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">NAMA</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">EMAIL</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                            </div>
+                            <div class="form-group"><label for="inputMassage">MASSAGE</label>
+                              <textarea class="form-control" id="inputMassage" placeholder="Your Massage"></textarea>
+                            </div>                          
+                            <button type="submit" class="btn btn-outline-light">KIRIM</button>
+                        </form>
+                    </div>
+                    
+
                 </div>
             </div>
     </div>
-</div>>
+
+
+
+    <!-- Text Slider -->
+    <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:500,d:1000,x:0,e:{x:6}}],
+              [{b:-1,d:1,x:100,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+              [{b:-1,d:1,x:200,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+              [{b:-1,d:1,rX:20,rY:90},{b:0,d:4000,rX:0,e:{rX:1}}],
+              [{b:-1,d:1,rY:-20},{b:0,d:4000,rY:-90,e:{rY:7}}],
+              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:3000,sX:1,sY:1,e:{sX:1,sY:1}}],
+              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:5000,sX:1,sY:1,e:{sX:3,sY:3}}],
+              [{b:-1,d:1,tZ:300},{b:0,d:2000,o:1},{b:3500,d:3500,tZ:0,e:{tZ:1}}],
+              [{b:-1,d:1,x:20,p:{x:{o:33,r:0.5}}},{b:0,d:1000,x:0,o:0.5,e:{x:3,o:1},p:{x:{dl:0.05,o:33},o:{dl:0.02,o:68,rd:2}}},{b:1000,d:1000,o:1,e:{o:1},p:{o:{dl:0.05,o:68,rd:2}}}],
+              [{b:-1,d:1,da:[0,700]},{b:0,d:600,da:[700,700],e:{da:1}}],
+              [{b:600,d:1000,o:0.4}],
+              [{b:-1,d:1,da:[0,400]},{b:200,d:600,da:[400,400],e:{da:1}}],
+              [{b:800,d:1000,o:0.4}],
+              [{b:-1,d:1,sX:1.1,sY:1.1},{b:0,d:1600,o:1},{b:1600,d:5000,sX:0.9,sY:0.9,e:{sX:1,sY:1}}],
+              [{b:0,d:1000,o:1,p:{o:{o:4}}}],
+              [{b:1000,d:1000,o:1,p:{o:{o:4}}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+</div>
+
 
 </body>
 </html>
